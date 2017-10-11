@@ -6,7 +6,7 @@ const dataBase = './countries.json';
 let jsonText;
 let countryName = '';
 let domain = '';
-
+//Part 1
 // fs.readFile(dataBase, function(err,data){
 //    if(err){
 //       throw err;
@@ -28,8 +28,7 @@ let domain = '';
 //    countryIndex(inputCountry);
 // });
 
-// My own module
-
+//Part 2
 let countryIndex = jsonData => {
       for(let i = 0; i < jsonData.length; i++){
             if(jsonData[i].name === inputCountry){
